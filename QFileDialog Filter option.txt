@@ -1,0 +1,3 @@
+f = QFileDialog.getOpenFileName(parent, defaultDIR, filter)
+
+filter  ==> a string object ie, "Images (*png *.jpg *.jpeg)" OR multiple filters separated by ";;"  eg filter = "Python Files (*.py *.pyw)"

@@ -1,0 +1,1 @@
+itemsTextList =  [str(listWidget.item(i).text()) for i in range(listWidget.count())]

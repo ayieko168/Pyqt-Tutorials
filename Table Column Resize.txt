@@ -1,0 +1,11 @@
+pyqt4:
+	header = self.table.horizontalHeader()
+	header.setResizeMode(0, QtGui.QHeaderView.Stretch)
+	header.serResizeMode(1, QtGui.QHeaderView.ResizeToContents)
+	header.serResizeMode(2, QtGui.QHeaderView.ResizeToContents)
+
+pyqt5:
+
+	header = self.table.horizontalHeader()
+	header.setSectionResizeMode(0, QWidgets.QHeaderView.Stretch)
+	header.setSectionResizeMode(1, QWidgets.QHeaderView.ResizeToContents)
